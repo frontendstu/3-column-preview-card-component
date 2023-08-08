@@ -12,4 +12,14 @@
   --color-card: hsla(var(--color-neutral-100), 0.75);
   --color-card-btn: hsl(var(--color-neutral-100));
   --color-attribution: hsl(var(--color-neutral-300));
+
+  // Typography
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fs-body: 0.9375rem; /* 15px */
+  --fs-heading: 2.5rem; /* 40px */
+  --fs-btn: var(--fs-body);
+  --ff-body: 'Lexend Deca', sans-serif;
+  --ff-heading: 'Big Shoulders Display', sans-serif;
+  --leading-body: 25px;
 }
