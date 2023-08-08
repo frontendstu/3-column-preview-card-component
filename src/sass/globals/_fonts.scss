@@ -1,1 +1,8 @@
 @use '../abstracts' as abstract;
+
+@include abstract.font-face(
+  $font-family: 'Big Shoulders Display',
+  $font-path:
+    '../assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf',
+  $font-weight: 700
+);
