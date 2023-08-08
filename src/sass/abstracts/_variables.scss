@@ -22,4 +22,11 @@
   --ff-body: 'Lexend Deca', sans-serif;
   --ff-heading: 'Big Shoulders Display', sans-serif;
   --leading-body: 25px;
+
+  // Wrapper
+  --wrapper-max-width: 20.4375rem; /* 327px */
+
+  @media (min-width: 80em) {
+    --wrapper-max-width: 57.5rem; /* 920px */
+  }
 }
