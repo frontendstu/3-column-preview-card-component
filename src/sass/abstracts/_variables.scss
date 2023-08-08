@@ -1,2 +1,15 @@
 :root {
+  // Colours
+  --color-neutral-100: 0, 0%, 100%;
+  --color-neutral-150: 0, 0%, 95%;
+  --color-neutral-300: 0, 15%, 68%;
+  --color-sedans: 31, 76%, 52%;
+  --color-suvs: 184, 100%, 22%;
+  --color-luxury: 179, 100%, 13%;
+
+  --color-body-bg: hsl(var(--color-neutral-150));
+  --color-card-heading: hsl(var(--color-neutral-150));
+  --color-card: hsla(var(--color-neutral-100), 0.75);
+  --color-card-btn: hsl(var(--color-neutral-100));
+  --color-attribution: hsl(var(--color-neutral-300));
 }
