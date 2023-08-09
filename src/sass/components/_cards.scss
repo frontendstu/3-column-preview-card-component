@@ -58,6 +58,7 @@
 
       @include abstract.hover-focus-within {
         background: transparent;
+        color: var(--color-card-btn);
       }
     }
   }
