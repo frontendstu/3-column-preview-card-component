@@ -25,6 +25,13 @@
 
   // Card Item
   --card-item-padding: 3rem; /* 48px */
+  --card-item-radius-first: 8px 8px 0 0;
+  --card-item-radius-last: 0 0 8px 8px;
+
+  @media (min-width: 80em) {
+    --card-item-radius-first: 8px 0 0 8px;
+    --card-item-radius-last: 0 8px 8px 0;
+  }
 
   // Wrapper
   --wrapper-max-width: 20.4375rem; /* 327px */
