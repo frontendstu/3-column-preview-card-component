@@ -23,6 +23,13 @@
   --ff-heading: 'Big Shoulders Display', sans-serif;
   --leading-body: 25px;
 
+  // Card
+  --card-margin-top: 5.5rem; /* 88px */
+
+  @media (min-width: 80em) {
+    --card-margin-top: 0;
+  }
+
   // Card Item
   --card-item-padding: 3rem; /* 48px */
   --card-item-radius-first: 8px 8px 0 0;
