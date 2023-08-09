@@ -10,7 +10,7 @@
   --color-body-bg: hsl(var(--color-neutral-150));
   --color-card-heading: hsl(var(--color-neutral-150));
   --color-card-content: hsla(var(--color-neutral-100), 0.75);
-  --color-card-btn: hsl(var(--color-neutral-100));
+  --color-card-btn: hsl(var(--color-neutral-150));
   --color-attribution: hsl(var(--color-neutral-300));
 
   // Typography
@@ -50,7 +50,13 @@
   }
 
   // Card Item Button
+  --card-item-btn-color-active: hsl(var(--color-neutral-150));
+  --card-item-btn-bg: var(--color-card-btn);
+  --card-item-btn-border: 2px solid hsl(var(--color-neutral-150));
+  --card-item-btn-radius: 999px;
+  --card-item-btn-transition: 150ms ease-in-out all;
   --card-item-btn-margin-top: 1.5625rem; /* 25px */
+  --card-item-btn-padding: 0.75rem 32rem; /* 12px, 32px */
 
   @media (min-width: 80em) {
     --card-item-btn-margin-top: 5.1875rem; /* 83px */
