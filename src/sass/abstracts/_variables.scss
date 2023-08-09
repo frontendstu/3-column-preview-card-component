@@ -18,10 +18,14 @@
   --fw-bold: 700;
   --fs-body: 0.9375rem; /* 15px */
   --fs-heading: 2.5rem; /* 40px */
+  --fs-attribution: 0.875rem; /* 14px */
   --fs-btn: var(--fs-body);
   --ff-body: 'Lexend Deca', sans-serif;
   --ff-heading: 'Big Shoulders Display', sans-serif;
   --leading-body: 25px;
+
+  // Attribution
+  --attribution-margin-block: 2rem 1rem;
 
   // Card
   --card-margin-top: 5.5rem; /* 88px */
