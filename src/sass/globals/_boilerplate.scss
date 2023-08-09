@@ -1,0 +1,7 @@
+body {
+  font: var(--fw-regular) var(--fs-body) var(--ff-body);
+  line-height: var(--leading-body);
+  background-color: var(--color-body-bg);
+  display: grid;
+  place-content: center;
+}
