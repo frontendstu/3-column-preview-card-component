@@ -5,3 +5,9 @@ body {
   display: grid;
   place-content: center;
 }
+
+h2 {
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-heading);
+  text-transform: uppercase;
+}
