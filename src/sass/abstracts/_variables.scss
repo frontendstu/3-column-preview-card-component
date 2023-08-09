@@ -33,6 +33,15 @@
     --card-item-radius-last: 0 8px 8px 0;
   }
 
+  // Card Item Content
+  --card-item-content-margin-top: 2.1875rem; /* 35px */
+  --card-item-content-max-width: 14.4375rem; /* 231px */
+  --card-item-content-gap: 1.5625rem; /* 25px */
+
+  @media (min-width: 80em) {
+    --card-item-content-max-width: 13.25rem; /* 212px */
+  }
+
   // Wrapper
   --wrapper-max-width: 20.4375rem; /* 327px */
 
