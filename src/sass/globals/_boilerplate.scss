@@ -16,3 +16,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.attribution {
+  font-size: var(--fs-attribution);
+  color: var(--color-attribution);
+  margin-block: var(--attribution-margin-block);
+}
