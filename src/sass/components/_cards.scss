@@ -2,6 +2,18 @@
   display: flex;
   flex-direction: column;
 
+  &__sedans {
+    background-color: hsl(var(--color-sedans));
+  }
+
+  &__suvs {
+    background-color: hsl(var(--color-suvs));
+  }
+
+  &__luxury {
+    background-color: hsl(var(--color-luxury));
+  }
+
   @media (min-width: 80em) {
     flex-direction: row;
   }
