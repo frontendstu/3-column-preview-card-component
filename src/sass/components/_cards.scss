@@ -16,5 +16,13 @@
     &:last-child {
       border-radius: var(--card-item-radius-last);
     }
+
+    &-content {
+      margin-top: var(--card-item-content-margin-top);
+      max-width: var(--card-item-content-max-width);
+      display: flex;
+      flex-direction: column;
+      gap: var(--card-item-content-gap);
+    }
   }
 }
