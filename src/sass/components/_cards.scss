@@ -5,4 +5,16 @@
   @media (min-width: 80em) {
     flex-direction: row;
   }
+
+  &__item {
+    padding: var(--card-item-padding);
+
+    &:first-child {
+      border-radius: var(--card-item-radius-first);
+    }
+
+    &:last-child {
+      border-radius: var(--card-item-radius-last);
+    }
+  }
 }
