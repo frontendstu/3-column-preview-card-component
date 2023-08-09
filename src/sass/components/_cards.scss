@@ -30,11 +30,16 @@
     }
 
     &-content {
+      color: var(--color-card-content);
       margin-top: var(--card-item-content-margin-top);
       max-width: var(--card-item-content-max-width);
       display: flex;
       flex-direction: column;
       gap: var(--card-item-content-gap);
+
+      h2 {
+        color: var(--color-card-heading);
+      }
     }
 
     &-btn {
