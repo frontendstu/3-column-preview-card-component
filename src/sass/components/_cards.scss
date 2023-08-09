@@ -6,14 +6,17 @@
   flex-direction: column;
 
   &__sedans {
+    color: hsl(var(--color-sedans));
     background-color: hsl(var(--color-sedans));
   }
 
   &__suvs {
+    color: hsl(var(--color-suvs));
     background-color: hsl(var(--color-suvs));
   }
 
   &__luxury {
+    color: hsl(var(--color-luxury));
     background-color: hsl(var(--color-luxury));
   }
 
