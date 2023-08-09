@@ -42,6 +42,13 @@
     --card-item-content-max-width: 13.25rem; /* 212px */
   }
 
+  // Card Item Button
+  --card-item-btn-margin-top: 1.5625rem; /* 25px */
+
+  @media (min-width: 80em) {
+    --card-item-btn-margin-top: 5.1875rem; /* 83px */
+  }
+
   // Wrapper
   --wrapper-max-width: 20.4375rem; /* 327px */
 
